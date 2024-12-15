@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "gptchat-ui-connector"
+version = "0.1.0"
+description = ""
+authors = ["Eldar MSI <kursus1010@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+undetected-chromedriver = "^3.5.5"
+setuptools = "^75.6.0"
+cryptography = "^44.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
